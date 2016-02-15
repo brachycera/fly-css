@@ -1,0 +1,151 @@
+/*
+ * fly.css - Helper Classes
+ *
+ * Simple CSS rules to help with minimal layout and
+ * typographic tweaks
+ *
+ * @license MIT
+ * @date Feb. 2016
+ * @version 0.1 beta
+ *
+ */
+
+.bor-1     { border:        1px solid; }
+.bor-1__to { border-top:    1px solid; }
+.bor-1__ri { border-right:  1px solid; }
+.bor-1__bo { border-bottom: 1px solid; }
+.bor-1__le { border-left:   1px solid; }
+
+.bor-5     { border:        5px solid; }
+.bor-5__to { border-top:    5px solid; }
+.bor-5__ri { border-right:  5px solid; }
+.bor-5__bo { border-bottom: 5px solid; }
+.bor-5__le { border-left:   5px solid; }
+
+.bor-10     { border:        10px solid; }
+.bor-10__to { border-top:    10px solid; }
+.bor-10__ri { border-right:  10px solid; }
+.bor-10__bo { border-bottom: 10px solid; }
+.bor-10__le { border-left:   10px solid; }
+
+.bor-1-dot     { border:        1px dotted; }
+.bor-1-dot__to { border-top:    1px dotted; }
+.bor-1-dot__ri { border-right:  1px dotted; }
+.bor-1-dot__bo { border-bottom: 1px dotted; }
+.bor-1-dot__le { border-left:   1px dotted; }
+
+.pad-0      { padding:            0; }
+
+.pad-5       { padding:          5px; }
+.pad-5__h    { padding:        0 5px; }
+.pad-5__v    { padding:        5px 0; }
+.pad-5__to   { padding-top:      5px; }
+.pad-5__ri   { padding-right:    5px; }
+.pad-5__bo   { padding-bottom:   5px; }
+.pad-5__le   { padding-left:     5px; }
+
+.pad-10      { padding:          10px; }
+.pad-10__h   { padding:        0 10px; }
+.pad-10__v   { padding:        10px 0; }
+.pad-10__to  { padding-top:      10px; }
+.pad-10__ri  { padding-right:    10px; }
+.pad-10__bo  { padding-bottom:   10px; }
+.pad-10__le  { padding-left:     10px; }
+
+.pad-20      { padding:          20px; }
+.pad-20__h   { padding:        0 20px; }
+.pad-20__v   { padding:        20px 0; }
+.pad-20__to  { padding-top:      20px; }
+.pad-20__ri  { padding-right:    20px; }
+.pad-20__bo  { padding-bottom:   20px; }
+.pad-20__le  { padding-left:     20px; }
+
+.pad-30      { padding:          30px; }
+.pad-30__h   { padding:        0 30px; }
+.pad-30__v   { padding:        30px 0; }
+.pad-30__to  { padding-top:      30px; }
+.pad-30__ri  { padding-right:    30px; }
+.pad-30__bo  { padding-bottom:   30px; }
+.pad-30__le  { padding-left:     30px; }
+
+.mar-0      { margin:            0; }
+
+.mar-5       { margin:          5px; }
+.mar-5__h    { margin:        0 5px; }
+.mar-5__v    { margin:        5px 0; }
+.mar-5__to   { margin-top:      5px; }
+.mar-5__ri   { margin-right:    5px; }
+.mar-5__bo   { margin-bottom:   5px; }
+.mar-5__le   { margin-left:     5px; }
+
+.mar-10      { margin:          10px; }
+.mar-10__h   { margin:        0 10px; }
+.mar-10__v   { margin:        10px 0; }
+.mar-10__to  { margin-top:      10px; }
+.mar-10__ri  { margin-right:    10px; }
+.mar-10__bo  { margin-bottom:   10px; }
+.mar-10__le  { margin-left:     10px; }
+
+.mar-20      { margin:          20px; }
+.mar-20__h   { margin:        0 20px; }
+.mar-20__v   { margin:        20px 0; }
+.mar-20__to  { margin-top:      20px; }
+.mar-20__ri  { margin-right:    20px; }
+.mar-20__bo  { margin-bottom:   20px; }
+.mar-20__le  { margin-left:     20px; }
+
+.mar-30      { margin:          30px; }
+.mar-30__h   { margin:        0 30px; }
+.mar-30__v   { margin:        30px 0; }
+.mar-30__to  { margin-top:      30px; }
+.mar-30__ri  { margin-right:    30px; }
+.mar-30__bo  { margin-bottom:   30px; }
+.mar-30__le  { margin-left:     30px; }
+
+.blo         { display: block; }
+.hid         { display: none;  }
+
+.ro-90deg {
+    -webkit-transform:  rotate(90deg);
+    -moz-transform:     rotate(90deg);
+    -ms-transform:      rotate(90deg);
+    -o-transform:       rotate(90deg);
+    transform:          rotate(90deg);
+}
+
+
+/*
+ * Typography
+ */
+
+.bolder         { font-weight: bolder; }
+
+.small, a.small {
+    font-family:        Arial, sans-serif;
+    font-size:          12px !important;
+    line-height:        18px !important;
+}
+
+/*
+ * Colors
+ */
+
+.white,
+.white a:link, .white a:visited, .white a:hover, .white a:focus, .white a:active,
+a:link.white, a:visited.white, a:hover.white, a:focus.white, a:active.white {
+    color: #ffffff;
+    background: none;
+}
+.bor-white { border-color:      #ffffff; }
+.bg-white  { background-color:  #ffffff; }
+
+
+.black,
+.black a:link, .black a:visited, .black a:hover, .black a:focus, .black a:active,
+a:link.black, a:visited.black, a:hover.black, a:focus.black, a:active.black {
+    color: #ffffff;
+    background: none;
+}
+.bor-black { border-color:      #ffffff; }
+.bg-black  { background-color:  #ffffff; }
+
