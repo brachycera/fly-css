@@ -36,7 +36,7 @@ Set the `display` attribute to block/hide with the following classes
 
 ```html
  <div class="blo"><!-- this class sets display: block--></div>
- <div class="hid"><!-- this class sets display: hidden --></div>
+ <div class="hid"><!-- this class sets display: none --></div>
 ```
 
 Set the `transform` attribute to rotate a Box-Model 90 degrees
